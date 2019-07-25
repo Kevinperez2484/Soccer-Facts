@@ -10,14 +10,14 @@ main{
          grid-gap: 30px;
 
 aside{ grid-area: aside;
-       background-color:#64B5F6
+       background-color:#64B5F6;
 }
 
 footer{ grid-area: footer;
         background-color:
- #ef9472       
+ #ef9472;       
 }
 article{ 
   grid-area: article;      
- backgrounnd-color:#ffffff       
+ backgrounnd-color:#ffffff;       
 }
