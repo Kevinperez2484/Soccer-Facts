@@ -3,10 +3,10 @@ header{
       }
 
 main{
-        display: grid
-        grid-template-areas
+        display: grid;
+        grid-template-areas:
         'aside footer article'
-         'aside footer footer'
+         'aside footer footer';
          grid-gap: 30px;
 
 aside{ grid-area: aside;
