@@ -2,13 +2,22 @@ header{
         background-color: #F06292;
       }
 
-aside{ 
+main{
+        display: grid
+        grid-template-areas
+        'aside footer article'
+         'aside footer footer'
+         grid-gap: 30px;
+
+aside{ grid-area: aside;
        background-color:#64B5F6
 }
 
-footer{ background-color:
+footer{ grid-area: footer;
+        background-color:
  #ef9472       
 }
 article{ 
+  grid-area: article;      
  backgrounnd-color:#ffffff       
 }
