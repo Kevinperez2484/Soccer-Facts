@@ -22,3 +22,7 @@ article {
 	grid-area: article;
 	backgrounnd-color: #ffffff;
 }
+
+img {
+ width: 100%;	
+}
